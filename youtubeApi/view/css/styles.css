@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 5rem;
+}
+
+header nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscador{
+    width: 65%;
+    display: flex;
+}
+
+.form{
+    height: 31px;
+    width: 40%;
+}
+
+.left-formBusqueda input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-right: none;
+    padding-left: 1rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.contenedor-btnBusqueda{
+    height: 40px;
+    width: 64px;
+}
+
+.btn-busqueda{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    border: 1px solid #d3d3d3;
+    background-color: #f8f8f8;
+}
+
+.container-page{
+    display: flex;
+    height: 91.6vh;
+    width: 100%;
+}
+
+.left-view{
+    width: 60%;
+}
+
+.container-info-video{
+    height: 70%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-video{
+    width: 90%;
+    height: 85%;
+}
+
+.container-video iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.title-video{
+    width: 90%;
+    height: auto; 
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: .5rem;
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.related-video{
+    width: 100%;
+    height: 30%;
+    background-color: royalblue;
+}
+
+.rigth-view{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-right-view{
+    width: 55%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+
+.top-right-view figure{
+    background-color: yellowgreen;
+    height: 3rem;
+    width: 3rem;
+}
+
+.comentarios{
+    width: 80%;
+    height: 55%;
+    background-color: red;
+    margin: 2rem;
+}
+
+.descripcion-video{
+    width: 80%;
+    height: 22%;
+    background-color: purple;
+}
