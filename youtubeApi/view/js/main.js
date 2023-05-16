@@ -63,6 +63,7 @@ const showComments = async (nameVideo) => {
         </div>
         `;
         div.innerHTML = caja;
+        comentarios.innerHTML = '';
         comentarios.appendChild(div);
     }
 }
