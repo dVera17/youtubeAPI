@@ -50,6 +50,7 @@ const showDataChannel = async (nameVideo) => {
     logoCanal.src = dataVideo.contents[0].video.author.avatar[0].url;
     nombreCanal.textContent = dataVideo.contents[0].video.title;
 }
+//butgvtgyit
 
 const showComments = async (nameVideo) => {
     let caja = ''
